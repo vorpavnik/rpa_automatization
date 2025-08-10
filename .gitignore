@@ -1,0 +1,40 @@
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Среда разработки
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Лог-файл
+app.log
+
+# Временные файлы ОС
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Прочие временные и локальные файлы
+*.tmp
+*.temp
+*.log # Если вы хотите игнорировать все .log файлы, а не только app.log
+.DS_Store
